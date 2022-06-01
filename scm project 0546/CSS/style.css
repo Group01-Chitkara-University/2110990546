@@ -20,7 +20,8 @@
 }
 
 html{
-    font-size: 62.5%;
+    font-size: 52.5%; 
+    /* earlier it was 62.5% */
     overflow-x: hidden;
     scroll-padding-top: 7rem;
     scroll-behavior: smooth;
