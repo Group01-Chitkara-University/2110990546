@@ -15,8 +15,8 @@
     outline: none; border: none;
     text-transform: capitalize;
     transition: all .2s ease-out;
-    text-decoration:rgba(0, 0, 0, .1);
-    /* changed text-decoration from none to rgba */
+    text-decoration: rgba(216, 96, 108, 0.5);
+    /* CHANGES MADE IN MASTER BRANCH HARDIK */
 }
 
 html{
