@@ -41,7 +41,8 @@ section:nth-child(even){
     text-shadow: var(--text-shadow);
     text-transform: uppercase;
     color:var(--black);
-    font-size: 5rem;
+    font-size: 6rem;
+    /* changed from 5 to 6 rem in activity by harleen */
     letter-spacing: .4rem;
 }
 
