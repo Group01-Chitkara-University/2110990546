@@ -28,7 +28,9 @@ html{
 }
 
 section{
-    padding:2rem 9%;
+    padding:4rem 9%;
+/* changed from 2 to 4 rem in master branch */
+
 }
 
 section:nth-child(even){
