@@ -41,8 +41,8 @@ section:nth-child(even){
     text-shadow: var(--text-shadow);
     text-transform: uppercase;
     color:var(--black);
-    font-size: 4rem;
-    /* changed from 5 to 4 em in master by Hardik */
+    font-size: 5rem;
+    /*final changes in merge conflict*/
     letter-spacing: .4rem;
 }
 

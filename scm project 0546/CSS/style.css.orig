@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
 
 :root{
-    --blue:#36098d;
-    --black:#00000;
+    --blue:#36098d;    --black:#00000;
     --light-color:#777;
     --box-shadow:.5rem .5rem 0 purple;
     --text-shadow:.4rem .4rem 0 yellow;
@@ -16,7 +15,8 @@
     outline: none; border: none;
     text-transform: capitalize;
     transition: all .2s ease-out;
-    text-decoration: none;
+    text-decoration: rgba(216, 96, 108, 0.5);
+    /* CHANGES MADE IN MASTER BRANCH HARDIK */
 }
 
 html{
@@ -28,14 +28,7 @@ html{
 }
 
 section{
-<<<<<<< HEAD
-    padding:4rem 9%;
-/* changed from 2 to 4 rem in master branch */
-
-=======
-    padding:3 rem 9%;
-    /* changed from 2 to 3 rem in local branch */
->>>>>>> localBranch
+    padding:2rem 9%;
 }
 
 section:nth-child(even){
@@ -48,7 +41,13 @@ section:nth-child(even){
     text-shadow: var(--text-shadow);
     text-transform: uppercase;
     color:var(--black);
-    font-size: 5rem;
+<<<<<<< HEAD
+    font-size: 4rem;
+    /* changed from 5 to 4 em in master by Hardik */
+=======
+    font-size: 6rem;
+    /* changed from 5 to 6 rem in activity by harleen */
+>>>>>>> activity
     letter-spacing: .4rem;
 }
 
