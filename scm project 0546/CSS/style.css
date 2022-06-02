@@ -4,8 +4,8 @@
     --blue:#36098d;
     --black:#00000;
     --light-color:#777;
-    --box-shadow:.5rem .5rem 0 rgba(22, 160, 133, .2);
-    --text-shadow:.4rem .4rem 0 rgba(0, 0, 0, .2);
+    --box-shadow:.5rem .5rem 0 purple;
+    --text-shadow:.4rem .4rem 0 yellow;
     --border:.2rem solid #36098d;
 }
 
@@ -20,14 +20,16 @@
 }
 
 html{
-    font-size: 62.5%;
+    font-size: 52.5%; 
+    /* earlier it was 62.5% */
     overflow-x: hidden;
     scroll-padding-top: 7rem;
     scroll-behavior: smooth;
 }
 
 section{
-    padding:2rem 9%;
+    padding:3 rem 9%;
+    /* changed from 2 to 3 rem in local branch */
 }
 
 section:nth-child(even){
